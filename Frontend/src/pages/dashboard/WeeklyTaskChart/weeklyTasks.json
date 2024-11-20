@@ -1,0 +1,9 @@
+[
+    {"day": "Monday", "tasksCompleted": 8},
+    {"day": "Tuesday", "tasksCompleted": 12},
+    {"day": "Wednesday", "tasksCompleted": 15},
+    {"day": "Thursday", "tasksCompleted": 10},
+    {"day": "Friday", "tasksCompleted": 14},
+    {"day": "Saturday", "tasksCompleted": 6},
+    {"day": "Sunday", "tasksCompleted": 4}
+  ]

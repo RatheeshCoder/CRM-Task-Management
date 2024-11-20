@@ -1,0 +1,6 @@
+2024/10/21-09:34:23.273 1884 Reusing MANIFEST D:\CRM\Backend\tokens\whatsapp-session\Default\Local Storage\leveldb/MANIFEST-000001
+2024/10/21-09:34:23.293 1884 Recovering log #4
+2024/10/21-09:34:23.294 1884 Reusing old log D:\CRM\Backend\tokens\whatsapp-session\Default\Local Storage\leveldb/000004.log 
+2024/10/21-09:45:24.085 6c38 Level-0 table #6: started
+2024/10/21-09:45:24.127 6c38 Level-0 table #6: 13601 bytes OK
+2024/10/21-09:45:24.129 6c38 Delete type=0 #4

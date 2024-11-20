@@ -1,0 +1,6 @@
+name,department,fatherName,phoneNumber,collegeID,emailID,address,section
+John Doe,Computer Science,Richard Doe,1234567890,CS101,johndoe@example.com,123 Elm St,Section A
+Jane Smith,Mathematics,Michael Smith,2345678901,MT202,janesmith@example.com,456 Oak St,Section B
+Emily Johnson,Physics,Robert Johnson,3456789012,PH303,emilyjohnson@example.com,789 Pine St,Section C
+Michael Brown,Chemistry,William Brown,4567890123,CH404,michaelbrown@example.com,101 Maple St,Section D
+Sarah Davis,Biology,James Davis,5678901234,BI505,sarahdavis@example.com,202 Birch St,Section E

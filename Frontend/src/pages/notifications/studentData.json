@@ -1,0 +1,163 @@
+{
+    "students": [
+      {
+        "tasks": [
+          {
+            "_id": "task1",
+            "title": "Complete Chemistry Assignment",
+            "subTasks": [
+              {
+                "title": "Write Lab Report",
+                "tasks": [
+                  {
+                    "type": "input",
+                    "value": "Complete the lab report on chemical reactions."
+                  }
+                ]
+              }
+            ],
+            "verified": false,
+            "rejected": false,
+            "rejectionReason": ""
+          }
+        ],
+        "_id": "668bf1a53a493c6bb0fbc105",
+        "name": "Ajay",
+        "department": "Computer Science",
+        "fatherName": "Richard Doe",
+        "phoneNumber": "6383366259",
+        "collegeID": "CS101",
+        "emailID": "johndoe@example.com",
+        "address": "123 Elm St",
+        "section": "Section A"
+      },
+      {
+        "tasks": [
+          {
+            "_id": "task2",
+            "title": "AI Project Submission",
+            "subTasks": [
+              {
+                "title": "Develop AI Model",
+                "tasks": [
+                  {
+                    "type": "file",
+                    "value": "Upload your AI model file."
+                  }
+                ]
+              }
+            ],
+            "verified": false,
+            "rejected": false,
+            "rejectionReason": ""
+          }
+        ],
+        "_id": "668bf1a53a493c6bb0fbc107",
+        "name": "Manikandan B",
+        "department": "AI&DS",
+        "fatherName": "Balasundharam",
+        "phoneNumber": "7010534355",
+        "collegeID": "713321AD058",
+        "emailID": "manikandansns05@gmail.com",
+        "address": "789 Pine St",
+        "section": "Section B"
+      },
+      {
+        "tasks": [
+          {
+            "_id": "task3",
+            "title": "Chemistry Experiment",
+            "subTasks": [
+              {
+                "title": "Conduct Experiment",
+                "tasks": [
+                  {
+                    "type": "image",
+                    "value": "Upload an image of your experiment setup."
+                  }
+                ]
+              }
+            ],
+            "verified": false,
+            "rejected": false,
+            "rejectionReason": ""
+          }
+        ],
+        "_id": "668bf1a53a493c6bb0fbc108",
+        "name": "Tamil",
+        "department": "Chemistry",
+        "fatherName": "William Brown",
+        "phoneNumber": "9136284841",
+        "collegeID": "CH404",
+        "emailID": "michaelbrown@example.com",
+        "address": "101 Maple St",
+        "section": "Section D"
+      },
+      {
+        "tasks": [
+          {
+            "_id": "task4",
+            "title": "Biology Presentation",
+            "subTasks": [
+              {
+                "title": "Prepare Presentation",
+                "tasks": [
+                  {
+                    "type": "url",
+                    "value": "Provide the URL of your presentation."
+                  }
+                ]
+              }
+            ],
+            "verified": false,
+            "rejected": false,
+            "rejectionReason": ""
+          }
+        ],
+        "_id": "668bf1a53a493c6bb0fbc109",
+        "name": "Santhosh",
+        "department": "Biology",
+        "fatherName": "James Davis",
+        "phoneNumber": "6380532864",
+        "collegeID": "BI505",
+        "emailID": "sarahdavis@example.com",
+        "address": "202 Birch St",
+        "section": "Section E"
+      },
+      {
+        "tasks": [
+          {
+            "_id": "task5",
+            "title": "Mathematics Quiz",
+            "subTasks": [
+              {
+                "title": "Solve Quiz",
+                "tasks": [
+                  {
+                    "type": "input",
+                    "value": "Solve the given mathematics problems."
+                  }
+                ]
+              }
+            ],
+            "verified": false,
+            "rejected": false,
+            "rejectionReason": ""
+          }
+        ],
+        "_id": "668bf1a53a493c6bb0fbc106",
+        "name": "Kapil",
+        "department": "Mathematics",
+        "fatherName": "Michael Smith",
+        "phoneNumber": "9003985479",
+        "collegeID": "MT202",
+        "emailID": "janesmith@example.com",
+        "address": "456 Oak St",
+        "section": "Section B"
+      }
+    ],
+    "total": 5,
+    "page": 1,
+    "pages": 1
+  }
+  

@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'TTF';
+    src: url('./assets/font/NormalTTF.ttf');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+
+
+  body{
+    font-family: 'TTF' !important;
+
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }

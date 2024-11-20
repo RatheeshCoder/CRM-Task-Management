@@ -1,0 +1,157 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    width: 64px;
+    background-color: #111827;
+    transition: width 0.5s ease-in-out;
+    overflow-x: hidden;
+    position: fixed;
+  }
+  
+  .sidebar.nav-open {
+    width: 256px;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1.5rem;
+  }
+  
+  .logo {
+    width: 34px;
+    height: 34px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    color: white;
+    display: none;
+  }
+  
+  .sidebar.nav-open h2 {
+    display: block;
+  }
+  
+  .nav-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .nav-toggle img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .sidebar-nav {
+    width: 100%;
+    padding: 0 1.5rem;
+  }
+  
+  .nav-item, .menu-header, .submenu-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0.75rem;
+    color: #9CA3AF;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .nav-item:hover, .menu-header:hover, .submenu-item:hover {
+    background-color: #374151;
+    color: white;
+  }
+  
+  .nav-item img, .menu-header img, .submenu-item img {
+    width: 24px;
+    height: 24px;
+    margin-right: 1rem;
+  }
+  
+  .menu-section {
+    width: 100%;
+    border-bottom: 1px solid #4B5563;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .menu-header {
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+  }
+  
+  .menu-header img {
+    transition: transform 0.3s;
+  }
+  
+  .menu-header img.rotate {
+    transform: rotate(180deg);
+  }
+  
+  .submenu {
+    padding-left: 1rem;
+  }
+  
+  .user-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1.5rem;
+    margin-top: auto;
+  }
+  
+  .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .user-info {
+    display: none;
+    margin-left: 0.75rem;
+  }
+  
+  .sidebar.nav-open .user-info {
+    display: block;
+  }
+  
+  .user-name {
+    font-size: 0.875rem;
+    color: white;
+  }
+  
+  .user-email {
+    font-size: 0.75rem;
+    color: #9CA3AF;
+  }
+  
+  .settings-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  
+  @media (min-width: 1280px) {
+    .sidebar {
+      width: 256px;
+    }
+  
+    h2 {
+      display: block;
+    }
+  
+    .user-info {
+      display: block;
+    }
+  }
